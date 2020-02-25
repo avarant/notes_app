@@ -1,0 +1,85 @@
+.App {
+  user-select: none;
+}
+
+.App-header {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34; */
+}
+
+.list_of_items{
+  font-size:x-large;
+  list-style-type:none;
+  padding:0;
+  margin-top:10px;
+}
+
+.list_item{
+  height:32px;
+  margin-bottom:10px;
+  padding-top:3px;
+  padding-left:5px;
+
+  border:1px solid #000;
+  border-radius:10px;
+  font-size:x-large;
+  overflow: hidden;
+}
+
+.nav_btn,.new_btn{
+  height:30px;
+  outline:none;
+  border:none;
+  border:1px solid #000;
+  border-radius:10px;
+  background-color:inherit;
+  font-size:large;
+}
+
+.delete_btn{
+  margin-left:5px;
+}
+
+.new_btn{
+  width:60px;
+  height:60px;
+  position: absolute;
+  bottom:20px;
+  right:20px;
+  border-radius: 50%;
+}
+
+.note_container{
+  margin-top:10px;
+}
+
+.note_title,.note_body{
+  width:99%;
+  outline:none;
+  font-size:large;
+  background-color: inherit;
+}
+
+.note_title{
+  height:35px;
+  border:1px solid #000;
+  border-radius:10px;
+}
+
+.note_body{
+  margin-top:5px;
+  height:80vh;
+  border:none;
+}
+
+.date_time{
+  user-select: text;
+  position: absolute;
+  top:10px;
+  right:10px;
+  font-size: large;
+}
