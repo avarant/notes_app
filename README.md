@@ -1,3 +1,3 @@
 # notes_app
 
-a basic note taking app made with node.js
+a basic note taking web app made with node.js
